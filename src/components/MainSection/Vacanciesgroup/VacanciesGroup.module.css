@@ -1,0 +1,27 @@
+.vacancies_group{
+    width: 100%;
+    padding: 40px 100px 150px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #CDE7FF;
+    gap: 40px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.vacancy_cards{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+    row-gap: 40px;
+}
+
+.btn_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

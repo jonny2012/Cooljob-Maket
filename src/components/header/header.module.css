@@ -1,0 +1,38 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    a {
+        text-decoration: none;
+        font-size: 15px;
+        color: #000;
+
+    }
+}
+
+.header {
+    max-width: 1920px;
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #CDE7FF;
+}
+
+.header_left {
+    display: flex;
+    gap: 53px;
+}
+
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 53px;
+}

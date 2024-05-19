@@ -1,0 +1,24 @@
+.categoryCard {
+    padding-left: 30px;
+    padding-top: 60px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 270px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 3px 1px 9px 0px rgba(0,0,0,0.36);
+    margin-right: 40px;
+    gap: 15px;
+}
+.categoryCard:hover{
+
+    transform: translateY(5px);
+    box-shadow: 9px 5px 9px 0px rgba(0,0,0,0.36);
+    transition: 0.5s;
+  
+}
+
+.categoryCard:last-child{
+    background-color: lightgray;
+}

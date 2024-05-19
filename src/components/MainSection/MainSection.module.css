@@ -1,0 +1,17 @@
+.mainsection{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 130px 100px;
+    background-color: #CDE7FF;
+
+
+
+}
+.h1{
+  font-size: 64px;
+  max-width: 640px;
+  height: 150px;
+  font-weight: 700;  
+}

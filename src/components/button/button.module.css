@@ -1,0 +1,40 @@
+.headerbutton {
+    font-size: 15px;
+    padding: 13px;
+}
+
+.headerbutton:active {
+    box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.36);
+    transform: translateY(5px);
+    transition: 0.3s all;
+}
+
+button {
+    box-shadow: 9px 5px 9px 0px rgba(0, 0, 0, 0.36);
+    cursor: pointer;
+    border: none;
+}
+
+.mainsectionbtn {
+    padding: 41px 70px;
+    font-size: 22px;
+    background-color: #274059;
+    color: #fff;
+    font-weight: 600;
+}
+
+.vacancybtn {
+    font-weight: 700;
+    padding: 20px 50px;
+    background-color: #274059;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: 9px 8px 9px 0px rgba(0, 0, 0, 0.36);
+}
+
+
+.vacancybtn:active {
+    box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.36);
+    transform: translateY(5px);
+    transition: 0.4s all;
+}

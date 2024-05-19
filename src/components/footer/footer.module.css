@@ -1,0 +1,41 @@
+.footer {
+    padding: 56px 100px 45px 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #52606D;
+    color: #fff;
+    gap: 54px;
+}
+
+.cities {
+    display: flex;
+    color: #D0E8FF;
+    font-weight: 600;
+    justify-content: space-between;
+    border-bottom: 2px solid #465461;
+    padding-bottom: 43px;
+}
+
+.city {
+    cursor: pointer;
+}
+
+.city:hover {
+    color: #5e83a7;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.logo_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
